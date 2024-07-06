@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dino Running</title>
+        
+       
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="body" onkeydown="keyCheck(event);" onload="idleStart();">
+
+     <div class="background" id="background">
+        
+        <img class="Dino" src="Run (1).png" id="dino"/>
+
+        <div class="score" id="score">0 </div>
+        
+        <div class="endScreen" id="endScreen">
+         <div> Game Over </div>
+         <div> Your Score</div>
+         <div class="endScore" id="endScore"> 0</div>
+         <button class="btn" onclick="reload();"> Try Again </button>
+
+       
+
+        </div>
+        <h1 class="first" id="first"> Press Enter Key To Start</h1>
+
+        <div class="win" id="win">
+        
+            <div class ="ctext"> - - - Congratulations - - - </div>
+            <div class ="ctext1">Score: 100 </div>
+            <div class ="ctext2">Level 1 Completed </div>
+            <div class="neon" id="neon">
+                <a href="http://127.0.0.1:5500/Level%202/index_1.html">
+                    <i></i>
+                    <i></i>
+                    <span>Next Level</span>
+                  </a>
+
+                  
+                </div>
+        </div>
+
+     </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
+

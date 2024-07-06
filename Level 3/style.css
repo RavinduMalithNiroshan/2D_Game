@@ -1,0 +1,150 @@
+.background{
+    
+    background-image: url("vecteezy_sunset-beach-game-background_6684850.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.body{
+    margin: 0px;
+}
+
+.Dino{
+
+   height: 250px;
+   margin-top: 335px;
+   position: absolute;
+}
+
+.block{
+    background-image: url("monsteeeer.gif");
+    background-size: cover;
+    width:100px;
+    height:100px;
+    position: absolute;
+    margin-top: 480px;
+}
+.block_2
+{
+    background-image: url("flame.gif");
+    background-size: cover;
+    width:100px;
+    height:140px;
+    position: absolute;
+    margin-top: 430px;
+}
+
+.score{
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+
+.endScreen{
+
+    position: absolute;
+    width: 500px;
+    height: 400px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 520px;
+    margin-top: 130px;
+
+    visibility: hidden;
+}
+
+.endScore{
+    color: red;
+}
+
+
+.btn{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(20, 188, 203);
+    margin-top: 220px;
+}
+
+.win{
+
+    background-image: url("Would\ one\ of\ these\ pictures\ look\ good\ for\ the\ sub\ banner_\ I\ think\ it\'d\ look\ better\ than\ just\ the\ color\ Green_.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -105px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+.ctext{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-size: 40px;
+  color: aliceblue;
+  margin-top: 30px;
+  margin-left: 5px;
+
+}
+.ctext1{
+  font-size: 40px;
+  color: rgb(1, 1, 1);
+  margin-top: 90px;
+  margin-left: 8px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+
+}
+.ctext2{
+  font-size: 40px;
+  color: rgb(255, 255, 0);
+  margin-top: 270px;
+  margin-left: 10px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+
+}
+
+.replay
+{
+    width: 150px;
+    height: 50px;
+    margin-top: 335px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(72, 178, 236);
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
